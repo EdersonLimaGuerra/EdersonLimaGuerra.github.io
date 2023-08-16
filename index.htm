@@ -1,0 +1,26 @@
+</html lang= "es">
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema de Turnos - Pupusería</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+      <h1>Sistema de Turnos - Pupusería</h1>
+      <form id="turnoForm">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" required>
+        <button type="submit">Tomar Turno</button>
+        <button type="button" id="mostrarTurno">Mostrar Turno</button>
+      </form>
+      <div id="turnoTomado"></div>
+      <ul id="listaTurnos"></ul>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

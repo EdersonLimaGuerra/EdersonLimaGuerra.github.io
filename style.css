@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+  }
+  main {
+    margin-bottom: 100px; /
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #007bff;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #turnoForm {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  input {
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    flex: 1;
+    font-size: 18px;
+  }
+  
+  button {
+    padding: 20px 30px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    flex: 1;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #listaTurnos {
+    list-style: none;
+    padding: 0;
+    
+    margin: 20px 0;
+    padding: 0;
+  }
+  
+  #listaTurnos li {
+    padding: 20px; 
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+  }
+  
+  #listaTurnos li:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  button {
+    
+    border-radius: 30px; 
+  }
+  
+  /* Estilos para los mensajes de turno tomado y turno eliminado */
+  #turnoTomado,
+  #turnoEliminado {
+    text-align: center;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #333;
+    font-size: 20px;
+  }
+  
+  .container {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  
+  #mostrarTurno {
+    background-color: #dc3545;
+  }
+  
+  #mostrarTurno:hover {
+    background-color: #c82333;
+  }
+  
+  
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f0f6fc;
+    opacity: 0.8;
+    pointer-events: none;
+    z-index: -1;
+  }
+  #turnoTomado {
+    text-align: center;
+    font-size: 44px;
+    color: red; 
+    margin-top: 80px;
+  }
+  
+  #turnoEliminado {
+    text-align: center;
+    font-size: 24px;
+    color: red; 
+    margin-top: 20px;
+  }
+  
+  
+  
+  
